@@ -1,5 +1,5 @@
 def is_between time_start, time_end, time
-  if time > time_start
+  if time_end > time_start
     if time > time_start and time < time_end
       return true
     else 
